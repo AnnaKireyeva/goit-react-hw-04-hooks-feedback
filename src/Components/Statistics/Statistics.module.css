@@ -1,0 +1,12 @@
+.statisticItem {
+  font-size: 18px;
+}
+
+.statisticItem:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.statisticItem:nth-child(4),
+.statisticItem:nth-child(5) {
+  font-weight: bold;
+}
